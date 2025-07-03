@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  line-height: 1.5;
+}
+
+#page-layout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+  & > * {
+    padding: 12px 8px;
+  }
+}
+
+#header {
+  background-color: #ffffff;
+  grid-column: 2 / 3;
+}
+
+#sidebar {
+  background-color: #1992d4;
+  grid-column: 1 / 2;
+}
+
+#main {
+  background-color: #e2e8f0;
+  grid-column: 2 / 3;
+}
