@@ -130,6 +130,20 @@ body {
 
   & .announcements {
     grid-column: 2 / 3;
+
+    & .card {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      & > *:not(:last-child) {
+        padding-bottom: 20px;
+        border-bottom: 2px solid #d2d2d2;
+      }
+    }
   }
 
   & .trending {
