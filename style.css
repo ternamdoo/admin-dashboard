@@ -39,7 +39,15 @@ body {
   background-color: #ffffff;
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 2fr 1fr;
+  padding: 16px 32px;
+  gap: 20px;
+
+  & > * {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
 }
 
 #sidebar {
