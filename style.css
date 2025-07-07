@@ -79,6 +79,26 @@ body {
       font-size: 1.7rem;
     }
   }
+
+  & .actions {
+    justify-content: flex-start;
+
+    & button {
+      width: 100px;
+      height: 2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 16px;
+      color: #ffffff;
+      background-color: #1992d4;
+
+      &:hover {
+        cursor: pointer;
+        opacity: .8;
+        color: #262626;
+      }
+    }
+  }
 }
 
 #sidebar {
