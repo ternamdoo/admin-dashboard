@@ -124,13 +124,17 @@ body {
   }
 
   & .logo {
-    padding: 8px;
+    padding: 12px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
 
       & .icon {
-        height: 2em;
+        height: 4rem;
+      }
+
+      & .title {
+        font-size: 2rem;
       }
   }
 
