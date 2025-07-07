@@ -65,6 +65,20 @@ body {
       }
     }
   }
+
+  & .user-profile {
+    gap: 20px;
+    font-weight: bold;
+  }
+
+  & .user-greeting {
+    font-weight: bold;
+    line-height: 1.5em;
+
+    & .name {
+      font-size: 1.7rem;
+    }
+  }
 }
 
 #sidebar {
