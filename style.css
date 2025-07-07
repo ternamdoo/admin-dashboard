@@ -67,6 +67,7 @@ body {
   }
 
   & .user-profile {
+    justify-content: center;
     gap: 20px;
     font-weight: bold;
   }
