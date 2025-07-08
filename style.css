@@ -16,6 +16,10 @@ body {
   justify-content: center;
 }
 
+h2 {
+  margin-bottom: .2em;
+}
+
 .icon {
   height: 1.5rem;
 }
