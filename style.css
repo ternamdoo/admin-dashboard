@@ -101,6 +101,15 @@ body {
     font-weight: bold;
     line-height: 1.5em;
 
+    & .profile-picture {
+      height: 4em;
+      min-width: 4em;
+
+      & img {
+        height: 3em;
+      }
+    }
+
     & .name {
       font-size: 1.7rem;
     }
