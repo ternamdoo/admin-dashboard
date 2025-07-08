@@ -22,6 +22,31 @@ body {
 
 .profile-picture {
   height: 3em;
+  min-width: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  &.emeraldo {
+      background-color: #facc15;
+    }
+
+  &.unity {
+    background-color: #51c4be;
+  }
+
+  &.slugga {
+    background-color: #a3a3a3;
+  }
+
+  &.ghostty {
+    background-color: #fda4af;
+  }
+
+  & img {
+    height: 2em;
+  }
 }
 
 #page-layout {
