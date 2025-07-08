@@ -130,7 +130,7 @@ body {
       &:hover {
         cursor: pointer;
         opacity: .8;
-        color: #262626;
+        background-color: #262626;
       }
     }
   }
